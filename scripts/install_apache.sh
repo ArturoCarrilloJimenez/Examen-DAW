@@ -15,7 +15,7 @@ apt install apache2 -y
 # Copiamos archivo conf
 cp ../conf/000-default.conf /etc/apache2/sites-available
 
-sudo apt install php libapache2-mod-php php-mysql -y
+sudo apt install php libapache2-mod-php php-mysql php-xml php-mbstring php-curl php-zip php-gb php-intl php-soap -y
 
 # Habiltamos el modelo rewite de apache
 a2enmod rewrite
